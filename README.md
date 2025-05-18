@@ -3,7 +3,9 @@
 ## Details:
 This program was made as part of Internet Programming and the Java
 Programming Language course.  
-In this exercise I learned:   1.how OOP design works in java.   2.how multithreading can be implemented in java.  
+In this exercise I learned:  
+1.how OOP design works in java.  
+2.how multithreading can be implemented in java.  
 
 
 ## Design Patterns used:
