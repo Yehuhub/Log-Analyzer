@@ -1,6 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/w1uqWHUp)
 
-# Exercise 1 - log analyzer
+# Exercise - log analyzer
+## Details:
+This program for learning java.  
+In this exercise I learned: 1.how OOP design works in java, 2.how multithreading can be implemented in java
 
 ## Design Patterns used:
 1. Singletons - Properties manager, main data center, and factories are singleton classes.
@@ -10,7 +12,7 @@ necessary to do is to implement a new class that implements the Exporter interfa
 4. Decorator - the decorator pattern is used to stack log analyzing methods, this allows for a single object to analyze every method 
    and to add new methods without changing the existing code. to add a new method, all that is necessary is to extend the LogAnalyzerDecorator class.
 
-## Student
+## Contact
 Name: Yehu Raccah  
-login: yehura@edu.jmc.ac.il
+Email: yhrcch@gmail.com
 
