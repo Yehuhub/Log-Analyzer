@@ -1,0 +1,26 @@
+
+analysis action should be a decorator which can be stacked with
+different types of analysis interfaces.
+
+Properties manager should be a singleton class
+
+abstract factory/factory method for creating the different decorators based on the properties
+
+the data structure in which we hold the counts or anomalies should be global and accessed synchronically
+
+singleton data structure(a place for the threads to save the processed data)
+strategy pattern for main data structure output(defaults to output to json file) https://www.youtube.com/watch?v=E9-4uaoncVY
+
+
+work:
+ADD PROPER DOCUMENTATION IN ALL FILES 1 BY 1!!!!!!!!!!!!!
+ADD PROPER EXCEPTION HANDLING IN ALL FILES 1 BY 1!!!!!!!!!!!!!!!!
+
+
+Design Patterns used:
+- Singleton: For the properties manager to ensure only one instance is created.
+- Singleton: For the global data center to hold the processed data.
+- Factory Method: For creating different types of analysis decorators based on the properties.
+- Factory Method: for creating different types of storage classes for the data structure.
+- Strategy: For the main data structure output, allowing different output formats (e.g., JSON, CSV).
+- Decorator: For stacking different types of analysis interfaces.
